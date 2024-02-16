@@ -10,74 +10,87 @@
 </head>
 
 <body>
-    <!-- FORMULÁRIO DADOS -->
-    <form action="" class="contato-form">
+    <main>
+        <article class="container">
+            <section class="tudo" id="form">
+                <form action="" class="dados-form">
+                    <!-- NOME -->
+                    <div class="div-contato">
+                        <label for="name" class="label-contato">Nome:</label>
 
-        <!-- NOME -->
-        <div class="div-contato">
-            <label for="name" class="label-contato">Nome:</label>
+                        <div class="input-contato">
+                            <input type="text" name="name" id="name" required placeholder="Ex: Beatriz"
+                                class="input-dados" />
+                        </div>
+                    </div>
 
-            <div class="input-contato">
-                <input type="text" name="name" id="name" required placeholder="Ex: Beatriz" class="input-dados" />
-            </div>
-        </div>
+                    <!-- SOBRENOME -->
 
-        <!-- SOBRENOME -->
+                    <div class="div-contato">
+                        <label for="lastname" class="label-contato">Sobrenome:</label>
 
-        <div class="div-contato">
-            <label for="lastname" class="label-contato">Sobrenome:</label>
+                        <div class="input-contato">
+                            <input type="text" name="lastname" id="lastname" required
+                                placeholder="Ex: Oliveira Cavalcante" class="input-dados" />
+                        </div>
+                    </div>
 
-            <div class="input-contato">
-                <input type="text" name="lastname" id="lastname" required placeholder="Ex: Oliveira Cavalcante"
-                    class="input-dados" />
-            </div>
-        </div>
+                    <!-- EMAIL -->
 
-        <!-- EMAIL -->
+                    <div class="div-contato">
+                        <label for="email" class="label-contato">E-mail:</label>
 
-        <div class="div-contato">
-            <label for="email" class="label-contato">E-mail:</label>
+                        <div class="input-contato-2">
+                            <input type="text" name="email" id="email" required placeholder="Ex: bealinda@gmail.com"
+                                class="input-dados" />
+                        </div>
+                    </div>
 
-            <div class="input-contato-2">
-                <input type="text" name="email" id="email" required placeholder="Ex: bealinda@gmail.com"
-                    class="input-dados" />
-            </div>
-        </div>
+                    <!-- CIDADE -->
 
-        <!-- CIDADE -->
+                    <div class="div-contato">
+                        <label for="cidade" class="label-contato">Cidade:</label>
 
-        <div class="div-contato">
-            <label for="cidade" class="label-contato">Cidade:</label>
+                        <div class="input-contato-2">
+                            <input type="text" name="cidade" id="cidade" required placeholder="Ex: Ouro Preto do Oeste"
+                                class="input-dados" />
+                        </div>
+                    </div>
 
-            <div class="input-contato-2">
-                <input type="text" name="cidade" id="cidade" required placeholder="Ex: Ouro Preto do Oeste"
-                    class="input-dados" />
-            </div>
-        </div>
+                    <!-- TELEFONE -->
 
-        <!-- TELEFONE -->
+                    <div class="div-contato">
+                        <label for="fone" class="label-contato">DDD + Telefone:</label>
 
-        <div class="div-contato">
-            <label for="fone" class="label-contato">DDD + Telefone:</label>
+                        <div class="input-contato-3">
+                            <input type="text" name="fone" id="fone" required placeholder="Ex: (69) 99239-2770"
+                                class="input-dados" />
+                        </div>
+                    </div>
 
-            <div class="input-contato-3">
-                <input type="text" name="fone" id="fone" required placeholder="Ex: (69) 99239-2770"
-                    class="input-dados" />
-            </div>
-        </div>
+                    <!-- ESTADO -->
 
-        <!-- ESTADO -->
+                    <div class="div-contato">
+                        <label for="estado" class="label-contato">Estado:</label>
 
-        <div class="div-contato">
-            <label for="estado" class="label-contato">Estado:</label>
+                        <div class="input-contato-3">
+                            <input type="text" name="estado" id="estado" required placeholder="Ex: Rondônia"
+                                class="input-dados" />
+                        </div>
+                    </div>
 
-            <div class="input-contato-3">
-                <input type="text" name="estado" id="estado" required placeholder="Ex: Rondônia" class="input-dados" />
-            </div>
-        </div>
-
-
-    </form>
+                    <div class="div-contato">
+                        <label for="produtos" class="label-produtos">Quais ofertas você gostaria de receber?</label>
+                        <div class="prod1">
+                            <img src="" alt="Iphone 12">
+                            <label for="card1">Iphone 12</label>
+                            <input type="checkbox" id="prod1" value="prod1">
+                        </div>
+                    </div>
+                </form>
+            </section>
+        </article>
+    </main>
 </body>
 
 </html>
