@@ -4,20 +4,57 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: "Roboto", sans-serif;
+.container_form {
+  width: 700px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  box-shadow: 1px 0px 1.2px 0px #e3e3e3;
+  border-radius: 3px;
+  padding: 1em;
 }
 
-.container {
-  max-width: 960px;
-  margin: 2rem auto;
+.form-dados {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.dados-form .coluna {
   display: flex;
-  flex-wrap: row wrap;
-  justify-content: space-between;
-  align-items: center;
+  column-gap: 15px;
+}
+
+.form-dados {
+  width: 100%;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.dados-form .form-dados {
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: 1px;
+  padding: 8px 18px;
+  outline: none;
 }
 
 .input-dados {
+  font-size: 16px;
+  font-family: inherit;
+  padding: 8px 10px;
+  border-radius: 4px;
+  border: 1px #f2f2f2 solid;
+  background: #fdfdfd;
+  outline: none;
+  width: 100%;
+  transition: all 0.3s;
+}
+
+/*.input-dados {
   background: #f5f5f5;
   border-radius: 20px;
   border: #e3e3e3;
@@ -36,21 +73,12 @@ body {
 }
 
 .input-contato3 {
-
 }
 
 //PRODUTOS
 
-.prod1 {
-  flex: 1;
-}
-
-.prod2 {
-  flex: 1;
-}
-
-.prod3 {
-  flex: 1;
+.div-contato {
+  column-count: 3;
 }
 
 // BOTÕES
@@ -77,4 +105,4 @@ button {
   color: #f5f5f5;
   cursor: pointer;
   transition: 0.3s ease all;
-}
+}*/

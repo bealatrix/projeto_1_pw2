@@ -11,133 +11,148 @@
 </head>
 
 <body>
-    <main>
-        <article class="container">
-            <section class="tudo" id="form">
-                <form action="" class="dados-form">
-                    <!-- NOME -->
-                    <div class="div-contato">
-                        <label for="name" class="label-contato">Nome:</label>
+    <!-- CONTAINER PRINCIPAL -->
+    <div class="container-form">
+        <form action="#" class="dados-form" method="post">
 
-                        <div class="input-contato">
-                            <input type="text" name="name" id="name" required placeholder="Ex: Beatriz"
-                                class="input-dados" />
-                        </div>
+            <!-- NOME -->
+            <div class="form-dados">
+                <label for="name" class="label-contato">Nome:</label>
+
+                <div class="input-contato">
+                    <input type="text" name="name" id="name" required placeholder="Ex: Beatriz" class="input-dados" />
+                </div>
+            </div>
+
+            <!-- SOBRENOME -->
+            <div class="form-dados">
+                <label for="lastname" class="label-contato">Sobrenome:</label>
+
+                <div class="input-contato">
+                    <input type="text" name="lastname" id="lastname" required placeholder="Ex: Oliveira Cavalcante"
+                        class="input-dados" />
+                </div>
+            </div>
+
+            <!-- COLUNA 1 -->
+            <div class="coluna">
+
+                <!-- EMAIL -->
+                <div class="bloco">
+                    <label for="email" class="label-contato">E-mail:</label>
+
+                    <div class="input-contato-2">
+                        <input type="text" name="email" id="email" required placeholder="Ex: bealinda@gmail.com"
+                            class="input-dados" />
                     </div>
+                </div>
 
-                    <!-- SOBRENOME -->
+                <!-- TELEFONE -->
+                <div class="bloco">
+                    <label for="fone" class="label-contato">DDD + Telefone:</label>
 
-                    <div class="div-contato">
-                        <label for="lastname" class="label-contato">Sobrenome:</label>
-
-                        <div class="input-contato">
-                            <input type="text" name="lastname" id="lastname" required
-                                placeholder="Ex: Oliveira Cavalcante" class="input-dados" />
-                        </div>
+                    <div class="input-contato-3">
+                        <input type="text" name="fone" id="fone" required placeholder="Ex: (69) 99239-2770"
+                            class="input-dados" />
                     </div>
+                </div>
+            </div>
 
-                    <!-- EMAIL -->
+            <!-- COLUNA 2 -->
+            <div class="coluna">
 
-                    <div class="div-contato">
-                        <label for="email" class="label-contato">E-mail:</label>
+                <!-- CIDADE -->
+                <div class="bloco">
+                    <label for="cidade" class="label-contato">Cidade:</label>
 
-                        <div class="input-contato-2">
-                            <input type="text" name="email" id="email" required placeholder="Ex: bealinda@gmail.com"
-                                class="input-dados2" />
-                        </div>
+                    <div class="input-contato-2">
+                        <input type="text" name="cidade" id="cidade" required placeholder="Ex: Ouro Preto do Oeste"
+                            class="input-dados" />
                     </div>
+                </div>
 
-                    <!-- CIDADE -->
+                <!-- ESTADO -->
+                <div class="bloco">
+                    <label for="estado" class="label-contato">Estado:</label>
 
-                    <div class="div-contato">
-                        <label for="cidade" class="label-contato">Cidade:</label>
-
-                        <div class="input-contato-2">
-                            <input type="text" name="cidade" id="cidade" required placeholder="Ex: Ouro Preto do Oeste"
-                                class="input-dados2" />
-                        </div>
+                    <div class="input-contato-3">
+                        <input type="text" name="estado" id="estado" required placeholder="Ex: Rondônia"
+                            class="input-dados" />
                     </div>
+                </div>
+            </div>
 
-                    <!-- TELEFONE -->
+            <!-- OFERTAS A RECEBER -->
+            <div class="ofertas">
 
-                    <div class="div-contato">
-                        <label for="fone" class="label-contato">DDD + Telefone:</label>
+                <label for="produtos" class="label-produtos">Quais ofertas você gostaria de receber?</label>
 
-                        <div class="input-contato-3">
-                            <input type="text" name="fone" id="fone" required placeholder="Ex: (69) 99239-2770"
-                                class="input-dados2" />
-                        </div>
-                    </div>
+                <!-- PRODUTO 1: IPHONE -->
+                <div class="prod1">
+                    <img src="./assets/img/iphone.jpg" alt="Iphone">
+                    <label for="prod1">iPhone</label>
+                    <input type="checkbox" id="prod1" value="prod1">
+                </div>
 
-                    <!-- ESTADO -->
+                <!-- PRODUTO 2: MAC -->
+                <div class="prod2">
+                    <img src="./assets/img/mac.jpg" alt="Mac">
+                    <label for="prod2">Mac</label>
+                    <input type="checkbox" id="prod2" value="prod2">
+                </div>
 
-                    <div class="div-contato">
-                        <label for="estado" class="label-contato">Estado:</label>
+                <!-- PRODUTO 3: IPAD -->
+                <div class="prod3">
+                    <img src="./assets/img/ipad.png" alt="iPad">
+                    <label for="prod3">iPad</label>
+                    <input type="checkbox" id="prod3" value="prod3">
+                </div>
 
-                        <div class="input-contato-3">
-                            <input type="text" name="estado" id="estado" required placeholder="Ex: Rondônia"
-                                class="input-dados2" />
-                        </div>
-                    </div>
+                <!-- PRODUTO 4: APPLE WATCH -->
+                <div class="prod4">
+                    <img src="./assets/img/watch.png" alt="Apple Watch">
+                    <label for="prod4">Apple Watch</label>
+                    <input type="checkbox" id="prod4" value="prod4">
+                </div>
 
+                <!-- PRODUTO 5: AIRPODS -->
+                <div class="prod5">
+                    <img src="./assets/img/airpods.jpg" alt="AirPods">
+                    <label for="prod5">AirPods</label>
+                    <input type="checkbox" id="prod5" value="prod5">
+                </div>
 
-                    <div class="div-contato">
-                        <label for="produtos" class="label-produtos">Quais ofertas você gostaria de
-                            receber?</label>
-                        <div class="prod1">
-                            <img src="./assets/img/iphone.jpg" alt="Iphone">
-                            <label for="prod1">iPhone</label>
-                            <input type="checkbox" id="prod1" value="prod1">
-                        </div>
+                <!-- PRODUTO 6: APPLE TV  -->
+                <div class="prod6">
+                    <img src="./assets/img/apple_tv.png" alt="Apple TV">
+                    <label for="prod6">Apple TV</label>
+                    <input type="checkbox" id="prod6" value="prod6">
+                </div>
 
-                        <div class="prod2">
-                            <img src="./assets/img/mac.jpg" alt="Mac">
-                            <label for="prod2">Mac</label>
-                            <input type="checkbox" id="prod2" value="prod2" >
-                        </div>
+                <!-- PRODUTO 7: ACESSÓRIOS -->
+                <div class="prod7">
+                    <img src="./assets/img/acessorios.jpg" alt="Acessórios">
+                    <label for="prod7">Acessórios</label>
+                    <input type="checkbox" id="prod7" value="prod7">
+                </div>
 
-                        <div class="prod3">
-                            <img src="./assets/img/ipad.png" alt="iPad">
-                            <label for="prod3">iPad</label>
-                            <input type="checkbox" id="prod3" value="prod3" >
-                        </div>
+                <!-- PRODUTO 8: ORIGINAIS IPLACE -->
+                <div class="prod8">
+                    <img src="./assets/img/originais.jpg" alt="Originais iPlace">
+                    <label for="prod8">Originais iPlace</label>
+                    <input type="checkbox" id="prod8" value="prod8">
+                </div>
+            </div>
 
-                        <div class="prod4">
-                            <img src="./assets/img/watch.png" alt="Apple Watch">
-                            <label for="prod4">Apple Watch</label>
-                            <input type="checkbox" id="prod4" value="prod4" >
-                        </div>
-                        <div class="prod5">
-                            <img src="./assets/img/airpods.jpg" alt="AirPods">
-                            <label for="prod5">AirPods</label>
-                            <input type="checkbox" id="prod5" value="prod5" >
-                        </div>
+            <!------------------------------ FIM CHECKBOX --------------------------->
+            <!-- BOTÃO -->
+            <div class="botão">
+                <button type="submit" class="limpar">Limpar Dados</button>
+                <button type="submit" class="confirmar">Confirmar cadastro</button>
+            </div>
 
-                        <div class="prod6">
-                            <img src="./assets/img/apple_tv.png" alt="Apple TV">
-                            <label for="prod6">Apple TV</label>
-                            <input type="checkbox" id="prod6" value="prod6" >
-                        </div>
-
-                        <div class="prod7">
-                            <img src="./assets/img/acessorios.jpg" alt="Acessórios">
-                            <label for="prod7">Acessórios</label>
-                            <input type="checkbox" id="prod7" value="prod7" >
-                        </div>
-
-                        <div class="prod8">
-                            <img src="./assets/img/originais.jpg" alt="Originais iPlace">
-                            <label for="prod8">Originais iPlace</label>
-                            <input type="checkbox" id="prod8" value="prod8" >
-                        </div>
-                    </div>
-
-                    <button type="submit" class="limpar">Limpar Dados</button>
-                    <button type="submit" class="confirmar">Confirmar cadastro</button>
-                </form>
-            </section>
-        </article>
-    </main>
+        </form>
+    </div>
 </body>
 
 </html>
