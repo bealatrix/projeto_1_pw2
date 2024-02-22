@@ -15,22 +15,25 @@
     <div class="container-form">
         <form action="#" class="dados-form" method="post">
 
-            <!-- NOME -->
-            <div class="form-dados">
-                <label for="name" class="label-contato">Nome:</label>
+            <div classe="coluna">
+                <!-- NOME -->
+                <div class="form-dados">
+                    <label for="name" class="label-contato">Nome:</label>
 
-                <div class="input-contato">
-                    <input type="text" name="name" id="name" required placeholder="Ex: Beatriz" class="input-dados" />
+                    <div class="input-contato">
+                        <input type="text" name="name" id="name" required placeholder="Ex: Beatriz"
+                            class="input-dados" />
+                    </div>
                 </div>
-            </div>
 
-            <!-- SOBRENOME -->
-            <div class="form-dados">
-                <label for="lastname" class="label-contato">Sobrenome:</label>
+                <!-- SOBRENOME -->
+                <div class="form-dados">
+                    <label for="lastname" class="label-contato">Sobrenome:</label>
 
-                <div class="input-contato">
-                    <input type="text" name="lastname" id="lastname" required placeholder="Ex: Oliveira Cavalcante"
-                        class="input-dados" />
+                    <div class="input-contato">
+                        <input type="text" name="lastname" id="lastname" required placeholder="Ex: Oliveira Cavalcante"
+                            class="input-dados" />
+                    </div>
                 </div>
             </div>
 
@@ -41,7 +44,7 @@
                 <div class="bloco">
                     <label for="email" class="label-contato">E-mail:</label>
 
-                    <div class="input-contato-2">
+                    <div class="input-contato">
                         <input type="text" name="email" id="email" required placeholder="Ex: bealinda@gmail.com"
                             class="input-dados" />
                     </div>
@@ -51,7 +54,7 @@
                 <div class="bloco">
                     <label for="fone" class="label-contato">DDD + Telefone:</label>
 
-                    <div class="input-contato-3">
+                    <div class="input-contato">
                         <input type="text" name="fone" id="fone" required placeholder="Ex: (69) 99239-2770"
                             class="input-dados" />
                     </div>
@@ -65,7 +68,7 @@
                 <div class="bloco">
                     <label for="cidade" class="label-contato">Cidade:</label>
 
-                    <div class="input-contato-2">
+                    <div class="input-contato">
                         <input type="text" name="cidade" id="cidade" required placeholder="Ex: Ouro Preto do Oeste"
                             class="input-dados" />
                     </div>
@@ -75,14 +78,14 @@
                 <div class="bloco">
                     <label for="estado" class="label-contato">Estado:</label>
 
-                    <div class="input-contato-3">
+                    <div class="input-contato">
                         <input type="text" name="estado" id="estado" required placeholder="Ex: Rondônia"
                             class="input-dados" />
                     </div>
                 </div>
             </div>
 
-            <!-- OFERTAS A RECEBER -->
+            <!-- COLUNA DE PRODUTOS 2 -->
             <div class="ofertas">
 
                 <label for="produtos" class="label-produtos">Quais ofertas você gostaria de receber?</label>
@@ -114,7 +117,10 @@
                     <label for="prod4">Apple Watch</label>
                     <input type="checkbox" id="prod4" value="prod4">
                 </div>
+            </div>
 
+            <!-- COLUNA DE PRODUTOS 2 -->
+            <div class="ofertas">
                 <!-- PRODUTO 5: AIRPODS -->
                 <div class="prod5">
                     <img src="./assets/img/airpods.jpg" alt="AirPods">
@@ -143,14 +149,12 @@
                     <input type="checkbox" id="prod8" value="prod8">
                 </div>
             </div>
-
             <!------------------------------ FIM CHECKBOX --------------------------->
             <!-- BOTÃO -->
             <div class="botão">
                 <button type="submit" class="limpar">Limpar Dados</button>
                 <button type="submit" class="confirmar">Confirmar cadastro</button>
             </div>
-
         </form>
     </div>
 </body>

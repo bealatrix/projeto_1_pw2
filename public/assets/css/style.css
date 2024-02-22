@@ -5,31 +5,18 @@
 }
 
 .container_form {
-  width: 700px;
-  margin: auto;
+  max-width: 100%;
+  margin: 2rem auto;
   display: flex;
-  flex-direction: column;
-  background: #ffffff;
-  box-shadow: 1px 0px 1.2px 0px #e3e3e3;
-  border-radius: 3px;
-  padding: 1em;
+  flex-wrap: row wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .form-dados {
   width: 90%;
-  margin: 0 auto;
+  margin: auto;
   margin-bottom: 30px;
-  position: relative;
-}
-
-.dados-form .coluna {
-  display: flex;
-  column-gap: 15px;
-}
-
-.form-dados {
-  width: 100%;
-  margin-bottom: 20px;
   position: relative;
 }
 
@@ -42,48 +29,52 @@
   outline: none;
 }
 
+.dados-form .coluna .outra-coluna{
+  display: flex;
+  column-gap: 15px;
+}
+
 .input-dados {
   font-size: 16px;
   font-family: inherit;
-  padding: 8px 10px;
+  padding: 8px 15px;
   border-radius: 4px;
-  border: 1px #f2f2f2 solid;
-  background: #fdfdfd;
+  border: 1px #e3e3e3;
+  background: #f5f5f5;
   outline: none;
   width: 100%;
   transition: all 0.3s;
 }
 
-/*.input-dados {
-  background: #f5f5f5;
-  border-radius: 20px;
-  border: #e3e3e3;
-  width: 90%;
-  padding: 15px;
-  font-size: 14px;
+img {
+  width: 125px;
+  height: 111px;
+  align-content: end;
+
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 60px;
+  margin-right: 60px;
 }
 
-.input-dados2 {
-  background: #f5f5f5;
-  border-radius: 20px;
-  border: #e3e3e3;
-  width: 40%;
-  padding: 15px;
-  font-size: 14px;
+label {
+  background: white;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 
-.input-contato3 {
+.ofertas {
+  display: flex;
+  column-gap: 15px;
 }
 
-//PRODUTOS
-
-.div-contato {
-  column-count: 3;
-}
-
-// BOTÕES
-
-button {
+#BOTÕES button {
   margin-top: 30px;
 }
 
@@ -105,4 +96,4 @@ button {
   color: #f5f5f5;
   cursor: pointer;
   transition: 0.3s ease all;
-}*/
+}
